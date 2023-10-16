@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<!-- Framework and syntax definitions -->
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  	<DebugType>pdbonly</DebugType>
+  	  
+  	<!-- Project details and configuration -->
+  	<AssemblyName>Askor.$(MSBuildProjectName)</AssemblyName>
+  	<RootNamespace>Askor.$(MSBuildProjectName)</RootNamespace>
+  	<BaseOutputPath>..\..\build</BaseOutputPath>
+  	<Title>$(MSBuildProjectName)</Title>
+  	<Authors>Askor</Authors>
+  
+  	<OutputType>library</OutputType>
+  </PropertyGroup>
+
+</Project>
